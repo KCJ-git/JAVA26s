@@ -32,7 +32,6 @@ public class Main {
 			String brbook=sc.next();
 			lib.borrowBook(brbook);
 		
-		
 		}else if(choice==3) {
 			System.out.print("반납할 책 제목 입력>>");
 			String rtbook=sc.next();
@@ -41,7 +40,7 @@ public class Main {
 			System.out.println("잘못입력하셨습니다");
 			
 		}
-	}return;
-	
+	}
+	return;
 	}
 }
