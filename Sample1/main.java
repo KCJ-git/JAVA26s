@@ -6,9 +6,9 @@ public class Main {
 	public static void main(String[] args) {
 		Library lib = new Library(3);
 		
-		lib.addBook(new Book("자바", "이이이"));
-		lib.addBook(new Book("바바", "이이"));
-		lib.addBook(new Book("자바바", "이이이이"));
+		lib.addBook(new Book("자바1", "저자1"));
+		lib.addBook(new Book("자바2", "저자2"));
+		lib.addBook(new Book("자바3", "저자3"));
 		
 		Scanner sc= new Scanner(System.in);
 		
