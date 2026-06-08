@@ -1,3 +1,4 @@
+package Chap13;
 import java.awt.*;
 import javax.swing.*;
 
@@ -40,13 +41,13 @@ public class FlickeringLabelEx extends JFrame {
 		c.setLayout(new FlowLayout());
 	
 		// 깜박이는 레이블 생성
-		FlickeringLabel fLabel = new FlickeringLabel("깜박", 500); // 500밀리초 주기로 배경색 변경
+		FlickeringLabel fLabel = new FlickeringLabel("깜박", 500*2); // 500밀리초 주기로 배경색 변경
 
 		// 깜박이지 않는 레이블 생성
 		JLabel label = new JLabel("안깜박");
 		
 		// 깜박이는 레이블 생성
-		FlickeringLabel fLabel2 = new FlickeringLabel("여기도 깜박", 300); // 300밀리초 주기로 배경색 변경
+		FlickeringLabel fLabel2 = new FlickeringLabel("여기도 깜박", 300*2); // 300밀리초 주기로 배경색 변경
 
 		c.add(fLabel);
 		c.add(label);

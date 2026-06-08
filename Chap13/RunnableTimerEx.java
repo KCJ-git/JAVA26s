@@ -1,5 +1,8 @@
+package Chap13;
 import java.awt.*;
 import javax.swing.*;
+
+import TimerRunnable;
 
 class TimerRunnable implements Runnable {
 	private JLabel timerLabel; // 타이머 값이 출력된 레이블
